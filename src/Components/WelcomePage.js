@@ -6,8 +6,11 @@ class WelcomePage extends Component {
     render() {
         return (
             <div className="welcome-page-content">
-                <p>Search for a song from spotify</p>
-                <input className="song-input" placeholder="Song title..."></input>
+
+                <p>Search for a song from Spotify</p>
+                <input type="text" className="song-input" placeholder="Song title..."></input>
+                <button className="submit-btn" type="submit">Search</button>
+
             </div>);
     }
 }
