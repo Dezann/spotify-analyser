@@ -9,7 +9,7 @@ class WelcomePage extends Component {
 
                 <p>Search for a song from Spotify</p>
                 <input type="text" className="song-input" placeholder="Song title..."></input>
-                <button className="submit-btn" type="submit">Search</button>
+                <button className="submit-btn" type="submit" onClick={this.props.submitSong}>Search</button>
 
             </div>);
     }
