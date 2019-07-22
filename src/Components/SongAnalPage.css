@@ -1,22 +1,61 @@
 .upper-bar{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
     position:absolute;
     background-color: rgb(168, 168, 168);
     left:0;
     top:0;
     height: 8vh;
-    width: 100%
+    width: 100%;
+}
+
+.upper-bar > div{
+    margin-left: 4vh;
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
 }
 
 .song-info,
 .song-features{
+    display:flex;
+    justify-content: center;
+    font-size: 3vh;
+    align-items: center;
     background-color:rgb(150, 150, 150);
-    width: 30vw;
+    width: 35vw;
     height: 60vh;
     border-radius: 1vh;
+}
+.song-features > div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .song-content{
     display:flex;
     justify-content: space-around;
     width: 90vw;
+}
+
+.song-input.anal{
+    margin:0;
+    width: 30vh;
+    height: 3vh;
+    border-color: rgb(88, 88, 88);
+    background-color: whitesmoke;
+    border-width: 0.2vh;
+    padding-left: 2vh;
+}
+
+.submit-btn.anal{
+    margin: 0 0 0 1vh;
+    height: 3.7vh;
+    padding: initial;
+    width: 10vh;
+    border-color: rgb(88, 88, 88);
+    border-radius: 2vh;
+    font-size: 2vh;
 }

@@ -3,6 +3,7 @@
     flex-direction: column;
     margin-bottom: 5vh;
 }
+
 .welcome-page-content > p{
     text-align: center;
     color: white;
@@ -11,28 +12,32 @@
 
 .submit-btn{
     width: 20vh;
+    height: 7vh;
     margin:auto;
     margin-top: 4vh;
     font-size: 4vh;
     cursor: pointer;
-    border-radius: 1vh;
-    padding: 2vh;
-    border-color: rgb(78, 77, 77);
+    border-radius: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1vh;
     outline: 0;
-    font-family: IBM Plex Sans,sans-serif;
-    background-color: rgb(18, 150, 18);
+    background-color:transparent;
     color: #f5f5f5;
-    border:none;
+    border:2px solid rgb(45,151,45);
+    font-weight: 400;
+
 }
+
 .submit-btn:hover{
     background-color: rgb(58, 180, 58);
 }
+
 .song-input{
     display: block;
     margin: auto;
     width: 30vw;
     outline: none;
-    height: 6vh;
+    height: 7vh;
     border-radius: 5vh;
     border-style: solid;
     border-width: 0.3vh;
